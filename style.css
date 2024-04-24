@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: qanelas;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.center {
+    width: 500px;
+    height: 300px;
+    border: 2px solid #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
